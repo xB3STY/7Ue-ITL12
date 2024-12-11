@@ -1,13 +1,6 @@
 # 7Ue-ITL12 - Benutzerverwaltung / jQuery 
 
 **Name**: Basty Asumadu - **Übungstag**: 06.12.2024 - **Klasse**: 3aAPC - **Gruppe**: A - **Lehrgang**: 2
-- [AdminController.php](/controller/AdminController.php)
-- [UserModel.php](/model/UserModel.php)
-- [user_management.php](/view/admin/user_management.php)
-- [user_list.php](/admin/user_list.php)
-- [header.php](view/_templates/header.php)
-- [footer.php](view/_templates/footer.php)
-
 
 ## Geänderte und hinzugefügte Dateien
 
@@ -42,5 +35,19 @@
          ```html
          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css">
          <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+
+- [AdminController.php](/controller/AdminController.php)
+- [UserModel.php](/model/UserModel.php)
+- [user_management.php](/view/admin/user_management.php)
+- [user_list.php](/admin/user_list.php)
+- [header.php](view/_templates/header.php)
+- [footer.php](view/_templates/footer.php)
+
+
+So sieht es dann aus:
+
+
          <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
          ```
