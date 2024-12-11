@@ -5,5 +5,5 @@
 - [UserModel.php](/model/UserModel.php)
 - [user_management.php](/view/admin/user_management.php)
 - [user_list.php](/admin/user_list.php)
-- [header.php](view/templates/header.php)
-- [footer.php](view/templates/footer.php)
+- [header.php](view/_templates/header.php)
+- [footer.php](view/_templates/footer.php)
