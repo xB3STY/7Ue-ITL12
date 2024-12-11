@@ -4,5 +4,5 @@
 - [AdminController.php](/controller/AdminController.php)
 - [UserModel.php](/model/UserModel.php)
 - [user_management.php](/view/admin/user_management.php)
-- [user_list.php](/view/public/user_list.php)
+- [user_list.php](/admin/user_list.php)
 - [header.php](/templates/header.php)
