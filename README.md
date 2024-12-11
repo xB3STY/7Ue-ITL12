@@ -35,8 +35,8 @@
          ```html
          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css">
          <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-
+           <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
+         ```
 
 - [AdminController.php](/controller/AdminController.php)
 - [UserModel.php](/model/UserModel.php)
@@ -49,5 +49,4 @@
 So sieht es dann aus:
 
 
-         <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
-         ```
+       
