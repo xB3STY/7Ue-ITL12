@@ -7,8 +7,7 @@
     <!-- send empty favicon fallback to prevent user's browser hitting the server for lots of favicon requests resulting in 404s -->
     <link rel="icon" href="data:;base64,=">
     <!-- CSS -->
-    <link rel="stylesheet" href="<?php echo Config::get('URL'); ?>css/style.css" />
-
+    <link rel="stylesheet" href="<?php echo Config::get('URL'); ?>public/css/style.css" />
     <!-- DataTables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css">
     <!-- jQuery -->
@@ -36,6 +35,9 @@
             <li <?php if (View::checkForActiveController($filename, "note")) { echo ' class="active" '; } ?> >
                 <a href="<?php echo Config::get('URL'); ?>note/index">My Notes</a>
             </li>
+            <?php if (Session::get("user_account_type") == 7): ?>
+                <a href="<?php echo Config::get('URL'); ?>admin/userManagement" class="admin-button">User Management</a>
+            <?php endif; ?>
         <?php } else { ?>
             <!-- for not logged in users -->
             <li <?php if (View::checkForActiveControllerAndAction($filename, "login/index")) { echo ' class="active" '; } ?> >
@@ -82,7 +84,3 @@
             <?php endif; ?>
         <?php endif; ?>
     </ul>
-    //Button
-    <?php if (Session::get("user_account_type") == 7): ?>
-    <a href="<?php echo Config::get('URL'); ?>admin/userManagement" class="admin-button">User Management</a>
-    <?php endif; ?>
