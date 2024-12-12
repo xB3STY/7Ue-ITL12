@@ -46,8 +46,25 @@
 - [footer.php](view/_templates/footer.php)
 
 
-So sieht es dann aus:
-![image](https://github.com/user-attachments/assets/10f44eb5-cbe7-42c1-9c6d-a15c2e461418)
+So sieht es dann aus: (Angemeldet als Admin - Dann sehen wir den Button **User Managment** und die DataTables)
+![image](https://github.com/user-attachments/assets/65b86d1a-e32e-4804-a14a-998aa3d06079)
+![image](https://github.com/user-attachments/assets/c7ab1086-1107-4aa7-a861-9847ad569a35)
+
+Wenn wir Angemeldet sind aber kein Admin würde es dann so aussehen: (Der **User Managment** Button wird nicht mehr angezeigt)
+![image](https://github.com/user-attachments/assets/a856698a-1e2e-4d12-a9c7-8ca47b438e52)
+
+Jetzt vergeben wir als Admin (demo) einen Gast (test123) die Rolle Admin
+![image](https://github.com/user-attachments/assets/66e212ed-8526-4bf8-9d78-0094f69c9a28)
+
+Wenn wir das als admin gemacht haben wird es uns da auch zeigen das es successfully gemacht wurde oder nicht
+![image](https://github.com/user-attachments/assets/d2e504f6-88dc-4fb7-869d-52a11732abdc)
+
+Jetzt sieht der test123 den User **Managment button** auch
+![image](https://github.com/user-attachments/assets/62a5838c-017e-414d-a10b-81eb01fc371c)
+
+
+
+
 
 
 
