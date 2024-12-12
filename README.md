@@ -57,7 +57,9 @@ Jetzt vergeben wir als Admin (demo) einen Gast (test123) die Rolle Admin
 ![image](https://github.com/user-attachments/assets/66e212ed-8526-4bf8-9d78-0094f69c9a28)
 
 Wenn wir das als admin gemacht haben wird es uns da auch zeigen das es successfully gemacht wurde oder nicht
-![image](https://github.com/user-attachments/assets/d2e504f6-88dc-4fb7-869d-52a11732abdc)
+
+
+
 
 Jetzt sieht der test123 den User **Managment button** auch
 ![image](https://github.com/user-attachments/assets/62a5838c-017e-414d-a10b-81eb01fc371c)
