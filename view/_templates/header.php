@@ -82,3 +82,7 @@
             <?php endif; ?>
         <?php endif; ?>
     </ul>
+    //Button
+    <?php if (Session::get("user_account_type") == 7): ?>
+    <a href="<?php echo Config::get('URL'); ?>admin/userManagement" class="admin-button">User Management</a>
+    <?php endif; ?>
