@@ -57,6 +57,7 @@ Jetzt vergeben wir als Admin (demo) einen Gast (test123) die Rolle Admin
 ![image](https://github.com/user-attachments/assets/66e212ed-8526-4bf8-9d78-0094f69c9a28)
 
 Wenn wir das als admin gemacht haben wird es uns da auch zeigen das es successfully gemacht wurde oder nicht
+<img width="1552" alt="Bildschirmfoto 2024-12-12 um 11 10 45" src="https://github.com/user-attachments/assets/15e316f0-e1bd-4dd5-990e-a88a8f4978ba" />
 
 
 
