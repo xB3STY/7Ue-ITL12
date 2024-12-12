@@ -8,24 +8,24 @@
    - **Pfad**: `application/controller/AdminController.php`
    - **Änderungen**:
      - Neue Methoden hinzugefügt:
-       - `userManagement()`: Lädt die Benutzer und Gruppen in die Benutzerverwaltungsansicht.
-       - `updateUserGroup()`: Aktualisiert die Benutzerrolle.
+       `userManagement()`: Lädt die Benutzer und Gruppen in die Benutzerverwaltungsansicht
+       `updateUserGroup()`: Aktualisiert die Benutzerrolle
 
 ### 2. **Model: `UserModel.php`**
    - **Pfad**: `application/model/UserModel.php`
    - **Änderungen**:
      - Neue Methoden hinzugefügt:
-       - `getAllUsersWithGroups()`: Holt alle Benutzer mit ihren Gruppen aus der Datenbank.
-       - `getAllGroups()`: Holt alle verfügbaren Benutzergruppen.
-       - `updateUserGroup($user_id, $group_id)`: Aktualisiert die Gruppe eines Benutzers.
+       `getAllUsersWithGroups()`: Holt alle Benutzer mit ihren Gruppen aus der Datenbank
+       `getAllGroups()`: Holt alle verfügbaren Benutzergruppen
+       `updateUserGroup($user_id, $group_id)`: Aktualisiert die Gruppe eines Benutzers
 
 ### 3. **Ansichten:**
    - **Datei**: `user_management.php`
      - **Pfad**: `application/view/admin/user_management.php`
-     - **Inhalt**: HTML- und PHP-Logik für die Benutzerverwaltung (Liste der Benutzer und Dropdown-Menüs für die Gruppen).
+     - **Inhalt**: HTML- und PHP-Logik für die Benutzerverwaltung (Liste der Benutzer und Dropdown-Menüs für die Gruppen)
    - **Datei**: `user_list.php`
      - **Pfad**: `application/view/public/user_list.php`
-     - **Inhalt**: HTML und JavaScript (jQuery DataTables) zur Anzeige der öffentlichen Benutzerliste.
+     - **Inhalt**: HTML und JavaScript (jQuery DataTables) zur Anzeige der öffentlichen Benutzerliste
 
 ### 4. **Frontend-Ressourcen:**
    - **Datei**: `header.php`
@@ -58,9 +58,6 @@ Jetzt vergeben wir als Admin (demo) einen Gast (test123) die Rolle Admin
 
 Wenn wir das als admin gemacht haben wird es uns da auch zeigen das es successfully gemacht wurde oder nicht
 <img width="1552" alt="Bildschirmfoto 2024-12-12 um 11 10 45" src="https://github.com/user-attachments/assets/15e316f0-e1bd-4dd5-990e-a88a8f4978ba" />
-
-
-
 
 Jetzt sieht der test123 den User **Managment button** auch
 ![image](https://github.com/user-attachments/assets/62a5838c-017e-414d-a10b-81eb01fc371c)
